@@ -10,13 +10,13 @@ app.on('ready', () => {
         height: 600,
         title: 'Mapa Stands',
         center: true,
-        maximizable: false,
+        // maximizable: false,
         webPreferences: {
             nodeIntegration: true,
         },
-        kiosk: true,
-        resizable: false, //bloquear reajuste de pantalla
-        titleBarStyle: 'hidden', //Ocultar la barra de herramientas y de titulo
+        // kiosk: true,
+        // resizable: false, //bloquear reajuste de pantalla
+        // titleBarStyle: 'hidden', //Ocultar la barra de herramientas y de titulo
     });
 
     //Cargar htlmLocal

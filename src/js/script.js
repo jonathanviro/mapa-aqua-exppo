@@ -45,7 +45,7 @@ function select(idStand) {
 
     // Crear un botón para regresar a la vista anterior
     let backButton = document.createElement('img');
-    backButton.src = './src/img/salir.png';
+    backButton.src = './src/img/reintentar.png';
     imageElement.alt = 'boton salir';
     backButton.classList.add('back-button');
 
